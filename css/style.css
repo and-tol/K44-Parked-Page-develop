@@ -47,12 +47,11 @@ a.email:hover {
   .logo {
     width: 62px;
     height: 53px;
-      margin-bottom: 36px;
+    margin-bottom: 36px;
   }
   .firm-block {
-
     margin-left: 37px;
-    max-width: 40%;
+    max-width: 45%;
   }
   .text{
     margin-bottom: 29px;
