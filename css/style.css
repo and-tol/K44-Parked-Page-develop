@@ -11,20 +11,20 @@
 .firm-block {
   position: absolute;
   top: 65px;
-  left: 72px;
-  /*margin: ;*/
+  left: 0;
+  margin-left: 72px;
   font-family: Raleway, Open Sans, Helvetica Neue, Arial, sans-serif;
-  /*background-color: dimgray;*/
 }
 
 .logo {
   display: block;
-  /*width: 125px;
-  height: 72px;*/
+  width: 125px;
+  height: 72px;
   margin-bottom: 72px;
-  /*background-image: url(../img/K44_logo_white.png);
+  background-image: url(../img/K44_logo_white.png);
   background-repeat: no-repeat;
-  background-position: center;*/
+  background-position: center;
+  background-size: contain;
 }
 
 .text {
@@ -41,4 +41,21 @@ a.email {
 
 a.email:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 767px)  {
+  .logo {
+    width: 62px;
+    height: 53px;
+      margin-bottom: 36px;
+  }
+  .firm-block {
+
+    margin-left: 37px;
+    max-width: 40%;
+  }
+  .text{
+    margin-bottom: 29px;
+    font-size: 18px;
+    }
 }
