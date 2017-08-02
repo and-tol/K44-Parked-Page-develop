@@ -53,10 +53,14 @@ a.email:hover {
   .firm-block {
     margin-left: 37px;
     padding-top: 33px;
-    max-width: 53%;
+
   }
   .text{
     margin-bottom: 30px;
     font-size: 18px;
-    }
+  }
+
+  .t2 {
+    max-width: 53%;
+  }
 }
