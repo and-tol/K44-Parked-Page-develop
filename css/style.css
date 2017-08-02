@@ -9,9 +9,10 @@
 }
 
 .firm-block {
-  position: absolute;
-  top: 65px;
-  left: 0;
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+  padding-top: 65px;
   margin-left: 72px;
   font-family: Raleway, Open Sans, Helvetica Neue, Arial, sans-serif;
 }
@@ -51,10 +52,11 @@ a.email:hover {
   }
   .firm-block {
     margin-left: 37px;
-    max-width: 45%;
+    padding-top: 33px;
+    max-width: 52%;
   }
   .text{
-    margin-bottom: 29px;
+    margin-bottom: 30px;
     font-size: 18px;
     }
 }
