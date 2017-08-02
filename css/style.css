@@ -35,6 +35,10 @@
   margin-bottom: 58px;
 }
 
+.t2 {
+  max-width: 53%;
+}
+
 a.email {
   text-decoration: none;
   color: rgb(107, 158, 178);
@@ -53,14 +57,15 @@ a.email:hover {
   .firm-block {
     margin-left: 37px;
     padding-top: 33px;
-
   }
+
   .text{
     margin-bottom: 30px;
     font-size: 18px;
   }
 
-  .t2 {
-    max-width: 53%;
+
+  .t1 {
+    max-width: 70%;
   }
 }
