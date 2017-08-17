@@ -24,7 +24,7 @@
   margin-bottom: 72px;
   background-image: url(../img/K44_logo_white.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: contain;
 }
 
@@ -61,7 +61,7 @@ a.email:hover {
 
   .text{
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
 
